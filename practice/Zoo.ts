@@ -21,8 +21,6 @@ const checkZoos = (payload: string) => {
   const y = result_obj.o;
   const x = result_obj.z * 2;
 
-  console.log(y, x);
-
   if (x == y) {
     return "Yes";
   } else {

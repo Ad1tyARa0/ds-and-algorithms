@@ -14,7 +14,7 @@
  *
  * BIG O - worst case (O(log n)), best case (O(1)), average case (O(log n))
  */
-const BinarySearch = (
+const binarySearch = (
   arr: Array<string | number>,
   elem: string | number
 ): number | string => {
@@ -37,5 +37,5 @@ const BinarySearch = (
 };
 
 console.log(
-  BinarySearch(["a", "c", "d", "f", "h", "o", "p", "q", "y", "z"], "t")
+  binarySearch(["a", "c", "d", "f", "h", "o", "p", "q", "y", "z"], "t")
 );
