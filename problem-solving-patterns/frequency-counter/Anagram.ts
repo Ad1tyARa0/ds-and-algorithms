@@ -27,5 +27,3 @@ const ValidAnagram = (str1: string, str2: string) => {
 
   return true;
 };
-
-console.log(ValidAnagram("abcd", "dcag"));
